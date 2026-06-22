@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "name": "Ana García",
+    "role": "lead",
+    "department": "backend",
+    "salary": 5000,
+    "skills": [
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Carlos Méndez",
+    "role": "senior",
+    "department": "frontend",
+    "salary": 4000,
+    "skills": [
+      "Angular",
+      "TypeScript",
+      "SCSS"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Laura Torres",
+    "role": "junior",
+    "department": "fullstack",
+    "salary": 2500
+  },
+  {
+    "id": 4,
+    "name": "Pedro Ruiz",
+    "role": "senior",
+    "department": "devops",
+    "salary": 4500,
+    "skills": [
+      "Docker",
+      "Kubernetes",
+      "AWS"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "María López",
+    "role": "junior",
+    "department": "qa",
+    "salary": 2200,
+    "skills": [
+      "Selenium",
+      "Cypress"
+    ]
+  },
+  {
+    "name": "Jean Haro",
+    "role": "senior",
+    "department": "frontend",
+    "salary": 5000,
+    "skills": [
+      "Angular",
+      "TypeScript"
+    ],
+    "id": 6
+  }
+]

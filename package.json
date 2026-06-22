@@ -1,0 +1,32 @@
+{
+  "name": "api-rrhh",
+  "version": "0.1.0",
+  "description": "Sistema de gestión de empleados con **dos interfaces**: CLI interactiva y API REST.",
+  "license": "MIT",
+  "author": "Jean Haro",
+  "type": "commonjs",
+  "main": "dist/app.js",
+  "scripts": {
+    "start:api": "ts-node src/api/app.ts",
+    "start:cli": "ts-node src/cli/cli.ts",
+    "build": "tsc",
+    "build:watch": "tsc -w"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.1.1",
+      "onFail": "download"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "ts-node": "^10.9.2",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
