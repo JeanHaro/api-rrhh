@@ -1,11 +1,11 @@
-# 🏢 RRHH — Sistema de Gestión de Empleados
+# RRHH — Sistema de Gestión de Empleados
 
 Sistema de gestión de empleados con **dos interfaces**: CLI interactiva y API REST.  
 Proyecto de práctica de la **Objetos y Tipos Personalizados en TypeScript**.
 
 ---
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 src/
@@ -149,7 +149,7 @@ DELETE http://localhost:3001/employees/3
 
 ---
 
-## 🖥️ CLI — Opciones del menú
+## CLI — Opciones del menú
 
 ```
 1. Ver todos los empleados
